@@ -25,7 +25,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          upstream_sync_repo: tangly1024/NotionNext
+          upstream_sync_repo: notionnext-org/NotionNext
           upstream_sync_branch: main
           target_sync_branch: main
           # A fine-grained PAT in UPSTREAM_SYNC_TOKEN with Contents and Workflows
